@@ -1,6 +1,8 @@
-# Portfolio Website
+# My Portfolio Website
 <p align="center">
   <img src="./src/assets/portfolio.png" alt="">
+</p>
+<p>Welcome to my Portfolio powered by ReactJS! Explore my digital footprint and professional journey through a seamless and dynamic interface. With the cutting-edge capabilities of ReactJS, this website not only showcases my skills and accomplishments but also offers an engaging and responsive user experience. Dive into a visually appealing design that reflects my unique style and expertise. From project highlights to personal achievements, this portfolio is a testament to my dedication and proficiency in the world of web development.
 </p>
 
 ## Technologies Used:
