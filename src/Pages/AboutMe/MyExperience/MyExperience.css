@@ -1,0 +1,12 @@
+@media screen and (max-width:768px) {
+    .experience .box-container .box{
+        max-width: 100%; 
+        margin-left: 2.5%; 
+    }
+    .experience .box-container .box .content .btn{
+        width: 50%;
+    }
+    .experience .box-container .box .content p{
+        width: 100%;
+    }
+}

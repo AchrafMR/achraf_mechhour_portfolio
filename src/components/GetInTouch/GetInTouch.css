@@ -1,0 +1,136 @@
+.getintouch{
+    background-color: #1e181070;
+    padding: 45px 0;
+}
+
+.heading_getintouch02{
+    margin-top: -35px;
+    margin-left: 25px;
+    font-size: 55px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: #fff;
+}
+.logo111 img {
+    width:135px ;
+    height: 131px;
+    
+ 
+}
+.heading_getintouch01{
+    margin-top: -40px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.social, .Soft_skills, .web_links{
+    margin: 0 15px;
+}
+
+.social h1, .Soft_skills h1, .web_links h1{
+    color: #fff;
+    margin-bottom: -5px;
+    font-size: 25px;
+}
+
+.social, .Soft_skills, .web_links{
+    list-style: none;
+}
+
+.get{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -15px;
+}
+
+.new_logo{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: -28px;
+    color: #fff;
+    animation: new_logo .4s ease infinite;
+}
+
+@keyframes new_logo {
+    0%{
+        color: #ffaa00;
+    }
+    50%{
+        color: #d30035;
+    }
+    100%{
+        color: #004e72;
+    }
+}
+
+.hire_me{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: -8%;
+}
+
+.social li a, .Soft_skills li, .web_links li #link{
+    font-size: 18px;
+    line-height: 40px;
+    color: #62615c;
+    transition: .3s ease-in;
+}
+
+.social li a:hover, .web_links li #link:hover{
+    color: #ffaa00;
+}
+
+@media (max-width:768px) {
+    #getintouch{
+        flex-direction: column;
+        margin-left: -20px;
+        max-width: 100%;
+    }
+    .getintouch{
+        width: 66.5%;
+        padding: 45px 132px;
+    }
+    .get{
+        text-align: center;
+    }
+    .new_logo{
+        margin-left: 35px;
+       
+    }
+    .get img{
+        margin-left: 25%;
+    }
+    .hire_me{
+        margin-left: 30%;
+    }
+    .heading_getintouch01{
+        font-size: 18px;
+        width: 150%;
+        margin-left: -15%;
+    }
+    .heading_getintouch02{
+        margin-top: 2px;
+        font-size: 38px;
+        width: 150%;
+        margin-left: -15%;
+    }
+    .all_links{
+        flex-direction: column;
+    }
+    .social, .Soft_skills, .web_links{
+        text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+    .getintouch{
+        width: 42%;
+    }
+    .get img{
+        margin-left: 8%;
+    }
+}

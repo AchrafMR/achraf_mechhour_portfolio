@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&family=Cairo+Play:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap');
+
+.move_to_next_page{
+    padding: 25px 0;
+    background-color:  000408;
+    box-shadow: 0 4px 10px var(--main-color);
+    border-radius: 30px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    
+}
+
+.move_heading{
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 45px;
+    color: var(--main-color);
+}
+
+.arrow_icon{
+    color: var(--main-color);
+    font-size: 55px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.arrow_icon:hover{
+    transform: translateX(20px);
+}
+
+@media (max-width:768px) {
+    .move_to_next_page{
+        max-width: 100%;
+        padding-right: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .move_to_next_page{
+        display: flex;
+        width: 78%;
+    }
+    .move_heading{
+        font-size: 28px;
+    }
+    .arrow_icon{
+        margin-left: 180%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+.SocialIcons{
+    display: flex;
+    margin-left: 0px;
+}
+
+.SocialIcons .facebook,
+.SocialIcons .whatsapp,
+.SocialIcons .github,
+.SocialIcons .linkedin,
+.SocialIcons .instagram
+{
+    position: relative;
+    margin: 0 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    cursor: pointer;
+    transition: .3 linear;
+}
+
+.SocialIcons .facebook span,
+.SocialIcons .whatsapp span,
+.SocialIcons .github span,
+.SocialIcons .linkedin span,
+.SocialIcons .instagram span{
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    /* padding: 1px 0; */
+}
+
+.SocialIcons .facebook:hover{
+    color: #3b5998 ;
+    transform: scale(1.2);
+}
+.SocialIcons .whatsapp:hover{
+    color: #25D366;
+    transform: scale(1.2);
+
+}
+.SocialIcons .github:hover{
+    color: var(--main-color);
+    transform: scale(1.2);
+
+}
+.SocialIcons .linkedin:hover{
+    color: #0072b1 ;
+    transform: scale(1.2);
+}
+
+.SocialIcons .instagram:hover{
+    color: #b1003b ;
+    transform: scale(1.2);
+}

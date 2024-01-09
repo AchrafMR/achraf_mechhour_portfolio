@@ -1,0 +1,102 @@
+.skills_section{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.additional_box{
+    flex:1 1 30rem;
+    text-align: center;
+    padding:2rem;
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    box-shadow: var(--shadow);
+    transition: border .5s ease-in-out;
+}
+
+.additional_box:hover{
+    border: 1px solid var(--main-color);
+}
+
+.additional_box_container{
+    margin-bottom: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.additional_box .icon{
+    height:6rem;
+    width:6rem;
+    margin: 15px auto;
+    line-height: 7rem;
+    font-size: 3rem;
+    color:#fff;
+    background:var(--main-color);
+    border-radius: 50%;
+}
+
+.additional_box h3{
+    color: #fff;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.additional_box p{
+    color:#aaa;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+
+.certification_section{
+    margin-bottom: 45px;
+}
+
+.qr_code_certife{
+    width: fit-content;
+}
+
+.qr_code_certife img{
+    width: 20%;
+    margin-left: 280px;
+}
+
+.certification_section ul{
+    margin-left: -550px;
+}
+
+.certification_section ul li{
+    line-height: 55px;
+    font-size: 25px;
+    color: #f8f8f8;
+}
+
+@media (max-width:768px) {
+    .additional_box{
+        max-width: 98%;
+        margin-right: -20px;
+    }
+    .qr_code_certife img{
+        width: 40%;
+        margin-left: 345px;
+    }    
+}
+
+@media (max-width:530px) {
+    .certif_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .qr_code_certife img{
+        width: 40%;
+        margin-left: 115px;
+    }    
+    .certification_section ul{
+        margin-left: -40px;
+        text-align: center;
+        list-style: none;
+    }
+}

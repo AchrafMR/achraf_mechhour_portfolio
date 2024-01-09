@@ -1,0 +1,58 @@
+.hire_card{
+    /* background-color: #fc2; */
+    margin-right: 12px;
+}
+
+.hire_top{
+    width: 100%;
+    height: fit-content;
+}
+
+.hire_top img{
+    width: 50%;
+    margin: 0 23%;
+}
+
+.hire_body{
+    text-align: center;
+}
+
+.hire_body .hire_title{
+    font-size: 15px;
+    color: #fff;
+}
+
+.hire_body p{
+    font-size: 14px;
+    width: 50%;
+    margin: 0 auto;
+    color: #aaa;
+    line-height: 20px;
+}
+
+.morespace{
+    margin: 135px 0;
+}
+
+/* @media (max-width:768px) {
+    #hire{
+        margin-left: 0%;
+    } 
+} */
+
+@media (max-width:768px) {
+    #hire{
+        flex-direction: column;
+        margin-left: 5%;
+        width: 95%;
+    }
+    .hire_card{
+        margin-top: 30px;
+    }
+    .hire_body .hire_title{
+        font-size: 10px;
+    }
+    .hire_body p{
+        max-width: 100%;
+    }
+}

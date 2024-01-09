@@ -1,0 +1,150 @@
+.post_container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10%;
+}
+
+.project_details_post, .sidebar{
+    padding: 35px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    color: #fff;
+    transition: border .5s ease-in-out;
+}
+
+.project_details_post{
+    width: 62%;
+    height: 100%;
+}
+
+.sidebar{
+    width: 25%;
+    height: 100vh;
+}
+
+.sidebar_btn{
+    margin-top: 25%;
+}
+
+.project_image{
+    max-width: 100%;
+}
+
+.project_image img{
+    width: 100%;
+    height: 50%;
+}
+
+.image_gallery{
+    /* display: flex; */
+    width: 50%;
+}
+
+.image_gallery img{
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    opacity: .5;
+    transition: .4s ease;
+}
+
+.image_gallery img:hover, .image_gallery img.active_image_gallery{
+    opacity: 1;
+}
+
+.project_details_post h2{
+    font-size: 30px;
+}
+
+.project_details_post p{
+    margin-top: -2%;
+    font-size: 18px;
+    color: #bcbcbc;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.tools h2{
+    color: #fff;
+}
+
+.keywords{
+    font-size: 40px;
+}
+
+.features ul{
+    list-style: none;
+    margin-left: -5%;
+}
+
+.features ul li{
+    font-size: 20px;
+}
+
+.preview_btn{
+    width: 25%;
+}
+
+.categories, .tags{
+    /* margin-top: 50px; */
+    color: #bcbcbc;
+    font-size: 18px;
+}
+
+.categories h2, .tags h2{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 35px;
+}
+
+.categories span, .tags span{
+    display: block;
+    line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    .post_container{
+        flex-direction: column;
+    }
+    .project_details_post, .sidebar{
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .image_gallery{
+        width: 100%;
+    }
+    .image_gallery img{
+        width: 80%;
+    }
+    .post_container{
+        flex-direction: column;
+    }
+    .sidebar_btn{
+        width: 80%;
+    }
+    .preview_btn{
+        width: 50%;
+    }
+    .features ul li{
+        font-size: 17px;
+    }
+    .date_author{
+        margin: 10px 0 -15px 0;
+    }
+    .post_infos{
+        flex-direction: column-reverse;
+    }
+    .project_details_post, .sidebar{
+        padding: 20px;
+    }
+    .project_details_post h2{
+        font-size: 25px;
+    }
+    .project_details_post p{
+        font-size: 13px;
+    }
+}

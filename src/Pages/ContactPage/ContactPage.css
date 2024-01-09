@@ -1,0 +1,196 @@
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    /* align-items: center; */
+}
+.text{
+    margin-top: -50px;
+}
+.text h1{
+    font-size: 50px;
+    color:var(--main-color);
+}
+
+.text .text_desc{
+    margin: -30px 0 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #62615c;
+    width: 100%;
+}
+
+.text_img {
+    width: 80%;
+    /* background-color: #fff; */
+}
+
+.text_img img{
+    width: 100%;
+    /* margin-left: -10%; */
+}
+
+.contact_infos p{
+    line-height: 5px;
+    font-size: 15px;
+    color: #62615c;
+}
+
+.contact_infos span{
+    color: var(--main-color);
+}
+
+.contact .message_sent h2, .contact .message_sent p{
+    border-left: 8px solid #fff;
+    color: #fff;
+    padding: 8px 15px;
+    width: fit-content;
+    font-size: 25px;
+    height: fit-content;
+}
+
+.contact .message_sent p{
+    background-color: #c70032;
+}
+
+.contact .message_sent h2{
+    background-color: #00a740;
+}
+
+.email_validation{
+    display: none;
+}
+
+.email_input:focus + .email_validation{
+    display: block;
+}
+
+.contact .email_validation .valid{
+    font-size: 15px;
+    text-align: start;
+    color: #00a740;
+}
+
+.contact .email_validation .not_valid{
+    font-size: 15px;
+    text-align: start;
+    color: #c70032;
+}
+
+.contact form{
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    /* margin-left: -270px; */
+}
+
+.contact form textarea,
+.contact form .inputBox input{
+    background: transparent;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    color: #fff;
+    width: 98%;
+    outline: none;
+    margin:.7rem 0;
+    text-transform: none;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    padding: 20px;
+}
+
+.contact form textarea:focus,
+.contact form .inputBox input:focus{
+    border: 1px solid var(--main-color);
+}
+
+.contact form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.s_btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    /* margin-left: -50%; */
+}
+
+.inp_send_btn{
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    outline: none;
+    background-color: transparent;
+    color: #aaa;
+    font-size: 18px;
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.inp_send_btn:hover{
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+@media (max-width:1200px){
+    .contact form {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width:768px){
+    .text {
+        margin-left: 8%;
+    }
+    #contact{
+        width: 100%;
+        /* float: left; */
+    }
+    .text .text_desc{
+        width: 100%;
+    }
+    .text .contact_note,  .text .contact_infos p{
+        max-width: 100%;
+    }
+    .contact form {
+        width: max-content;
+        margin-left: 6%;
+    }
+    .s_btn{
+        margin-left: 15%;
+    }
+}
+@media (max-width:480px){
+    .contact_info{
+        flex-direction: column;
+    }
+    .text_img img{
+        margin-left: 20%;
+    }
+    .contact .message_sent{
+        margin-left: 7%;
+    }
+    .contact .message_sent h2{
+        font-size: 18px;
+    }
+    .text h1{
+        font-size: 35px;
+    }
+    .contact form {
+        max-width: 92%;
+    }
+    #contact{
+        margin-left: -6%;
+    }
+    .text .text_desc{
+        text-align: justify;
+    }
+    /* .s_btn{
+        margin-left: -47%;
+        width: 55%;
+    } */
+    .inp_send_btn{
+        margin-left: 8%;
+    }
+}

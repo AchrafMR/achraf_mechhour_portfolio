@@ -1,0 +1,22 @@
+#education{
+    max-width: 90%;
+} 
+
+.education .box-container{
+    gap: 45px;
+}
+
+@media (max-width:768px) {
+    .education .box-container .box{
+        max-width: 100%; 
+    }
+    .education .box-container .box .content p{
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .education .box-container{
+        width: 107%; 
+    }
+}

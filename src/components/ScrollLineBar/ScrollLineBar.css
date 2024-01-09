@@ -1,0 +1,20 @@
+/* ScrollLineBar.css */
+.scroll-line-bar {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.progress-bar {
+  height: 4px;
+  background-color: var(--main-color);
+  transition: width 0.3s ease-in-out;
+}
+
+@media (max-width:768px) {
+  .progress-bar {
+    height: 8px;
+  }
+}

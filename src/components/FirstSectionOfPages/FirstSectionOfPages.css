@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&family=Cairo+Play:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,700;1,400&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap'); */
+
+.section{
+    background-image: url("../../assets/bg_for_every_page.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    width: 99.4%;
+    height: 85vh;
+    padding-top: 90px;
+    margin-bottom: 58px;
+}
+
+.sections_title{
+    font-size: 60px;
+    margin-left: 25px;
+    color:var(--main-color);
+}
+
+.section_box{
+    /* padding: 10px 0; */
+    width: 85%;
+    margin: 0 auto;
+}
+
+.sec_img{
+    margin-top: 40px;
+    margin-left: 57%;
+    /* border-radius: 50%; */
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .section{
+        width: 100%;
+    }
+    .section_box{
+        margin-top: -55px;
+        flex-direction: column-reverse;
+    }
+    .sec_img{
+        width: 60%;
+        margin-top: 70%;
+        
+    }
+    .sections_title{
+        letter-spacing: 5px;
+        font-size: 55px;
+        margin-top: -100%;
+        margin-left: -25%;
+        /* float: left; */
+    }
+}
+
+@media (max-width:480px){
+    .section{
+        width: 104%;
+    }
+    .section_box{
+        margin-top: -55px;
+    }  
+    .sec_img{
+        width: 100%;
+        margin-left: 0%;
+    } 
+    .sections_title{
+        font-size: 40px;
+        margin-left: 0%;
+        margin-top: 25%;
+    }
+}
