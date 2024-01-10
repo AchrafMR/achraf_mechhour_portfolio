@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/achraf_mechhour_portfolio/static/css/main.baf0ffe0.css",
-    "main.js": "/achraf_mechhour_portfolio/static/js/main.321674b9.js",
+    "main.css": "/achraf_mechhour_portfolio/static/css/main.dbe675bc.css",
+    "main.js": "/achraf_mechhour_portfolio/static/js/main.2c673d3c.js",
     "static/media/p4img1.png": "/achraf_mechhour_portfolio/static/media/p4img1.402d358a2ea94e953b3c.png",
     "static/media/project4.png": "/achraf_mechhour_portfolio/static/media/project4.402d358a2ea94e953b3c.png",
     "static/media/p4img6.png": "/achraf_mechhour_portfolio/static/media/p4img6.b0f328acf1febb2b9f1b.png",
@@ -47,7 +47,7 @@
     "static/media/contact_img_02.png": "/achraf_mechhour_portfolio/static/media/contact_img_02.46a34d6755de1c345b75.png",
     "static/media/p5img1.png": "/achraf_mechhour_portfolio/static/media/p5img1.6c42ef9faf74058e3187.png",
     "static/media/portfolio.png": "/achraf_mechhour_portfolio/static/media/portfolio.6c42ef9faf74058e3187.png",
-    "static/media/CV.pdf.pdf": "/achraf_mechhour_portfolio/static/media/CV.pdf.9286d76eb0a22d060b90.pdf",
+    "static/media/Resume.pdf": "/achraf_mechhour_portfolio/static/media/Resume.d735b514a79d3008513b.pdf",
     "static/media/p5img4.png": "/achraf_mechhour_portfolio/static/media/p5img4.5d773455e60583b02b76.png",
     "static/media/p5img6.png": "/achraf_mechhour_portfolio/static/media/p5img6.3a2f5b6482434afbad89.png",
     "static/media/p6img1.png": "/achraf_mechhour_portfolio/static/media/p6img1.5fa210ae55355d390013.png",
@@ -81,11 +81,11 @@
     "static/media/slick.ttf": "/achraf_mechhour_portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/achraf_mechhour_portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/achraf_mechhour_portfolio/index.html",
-    "main.baf0ffe0.css.map": "/achraf_mechhour_portfolio/static/css/main.baf0ffe0.css.map",
-    "main.321674b9.js.map": "/achraf_mechhour_portfolio/static/js/main.321674b9.js.map"
+    "main.dbe675bc.css.map": "/achraf_mechhour_portfolio/static/css/main.dbe675bc.css.map",
+    "main.2c673d3c.js.map": "/achraf_mechhour_portfolio/static/js/main.2c673d3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.baf0ffe0.css",
-    "static/js/main.321674b9.js"
+    "static/css/main.dbe675bc.css",
+    "static/js/main.2c673d3c.js"
   ]
 }
