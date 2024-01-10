@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/achraf_mechhour_portfolio/static/css/main.dbe675bc.css",
-    "main.js": "/achraf_mechhour_portfolio/static/js/main.2c673d3c.js",
+    "main.js": "/achraf_mechhour_portfolio/static/js/main.cd1aa60e.js",
     "static/media/p4img1.png": "/achraf_mechhour_portfolio/static/media/p4img1.402d358a2ea94e953b3c.png",
     "static/media/project4.png": "/achraf_mechhour_portfolio/static/media/project4.402d358a2ea94e953b3c.png",
     "static/media/p4img6.png": "/achraf_mechhour_portfolio/static/media/p4img6.b0f328acf1febb2b9f1b.png",
@@ -82,10 +82,10 @@
     "static/media/slick.woff": "/achraf_mechhour_portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/achraf_mechhour_portfolio/index.html",
     "main.dbe675bc.css.map": "/achraf_mechhour_portfolio/static/css/main.dbe675bc.css.map",
-    "main.2c673d3c.js.map": "/achraf_mechhour_portfolio/static/js/main.2c673d3c.js.map"
+    "main.cd1aa60e.js.map": "/achraf_mechhour_portfolio/static/js/main.cd1aa60e.js.map"
   },
   "entrypoints": [
     "static/css/main.dbe675bc.css",
-    "static/js/main.2c673d3c.js"
+    "static/js/main.cd1aa60e.js"
   ]
 }
