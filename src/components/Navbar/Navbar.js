@@ -42,7 +42,7 @@ function Navbar() {
                 </div>
             </div>
             <div className="con">
-                <a href="#Hero" className="logo">
+                <a href="#" className="logo">
                     <img src={Logo} alt="achraf_logo" />
                 </a>
                 <div id="mainListDiv" className="main_list">

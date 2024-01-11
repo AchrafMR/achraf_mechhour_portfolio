@@ -11,6 +11,7 @@ import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import ScrollLineBar from './components/ScrollLineBar/ScrollLineBar';
 import Services from './Pages/Services/Services';
+
 import GetInTouch from './components/GetInTouch/GetInTouch';
 import SkillsPage from './Pages/SkillsPage/SkillsPage';
 import ContactPage from './Pages/ContactPage/ContactPage';
@@ -38,6 +39,7 @@ function App() {
             <Route path='/Skills' element={<SkillsPage />} />
             <Route path='/Projects' element={<ProjectsPage />} />
             <Route path='/Projects/:projectId' element={<ProjectsDetails/>} />
+
             <Route path='/Contact' element={<ContactPage />} />
           </Routes>
           <GetInTouch />

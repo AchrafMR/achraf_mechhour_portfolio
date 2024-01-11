@@ -8,7 +8,7 @@ export default function GetInTouch() {
         <div className="getintouch">   
               
             <div id="getintouch" className="container d-flex justify-content-between align-items-center">
-            <a href="#Hero" className="logo111">
+            <a href="#" className="logo111">
                     <img src={Logo} alt="achraf_logo" />
                 </a>
                 <div className="all_links d-flex">

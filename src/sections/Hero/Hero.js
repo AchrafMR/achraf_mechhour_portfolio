@@ -4,7 +4,7 @@ import SocialIcons from '../../components/SocialIcons/SocialIcons';
 import { FaDownload } from "react-icons/fa6";
 import Coding from '../../assets/coding.png'
 // import { saveAs } from 'file-saver';
-import CV from '../../assets/CV.pdf.pdf';
+import CV from '../../assets/Resume.pdf';
 import './Hero.css'
 
 function Hero() {
@@ -28,9 +28,9 @@ function Hero() {
             <div className="hero_container">
                 <div className="information">
                     <h1>
-                        Hello, <span style={{color:'var(--main-color)'}}>I'm</span> <br /> MECHHOUR ACHRAF <br /> A Web Full stack developer
+                        Hello, <span style={{color:'var(--main-color)'}}>I'm</span> <br /> MECHHOUR ACHRAF <br /> A Full stack Web developer
                     </h1>
-                    <p> I am a highly skilled Web full-stack developer proficient in both front-end and back-end development. I have the ability to create dynamic and user-friendly web applications with exceptional features.</p>
+                    <p> I am a highly skilled full-stack Web developer proficient in both front-end and back-end development. I have the ability to create dynamic and user-friendly web applications with exceptional features.</p>
                     <div className="btn">
                         <div id='button'>
                             <a href={CV} download="cv" className="link">

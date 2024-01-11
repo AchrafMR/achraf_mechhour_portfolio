@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import Titles from '../../components/Titles/Titles'
 import Button from '../../components/Button/Button';
 import './Projects.css'
@@ -8,11 +8,6 @@ import { FaEye } from "react-icons/fa6";
 import { ProData } from './ProData';
 
 const Projects = () => {
-  useEffect(() => {
-    // Scroll to the top when the component mounts
-    window.scrollTo(0, 0);
-  }, []); // Empty dependency array ensures this effect runs only once
-
   return (
    
     <div id='projects' className='container-md mb-5 mt-5'>
@@ -36,7 +31,7 @@ const Projects = () => {
                 </div>
                 
                     <div className="project_btn">
-                    <Button title="More Details" icon={<FaEye />} link={`/Projects/${item.id}`} />
+                    <Button title="More Details" icon={<FaEye />}  link={`/Projects/${item.id}`} />
                     </div>
                
               </div>

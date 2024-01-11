@@ -232,7 +232,7 @@ export const ProData = [
             {tag: "#react js"},
         ],
         project_structure_img: structure_05,
-        project_link_preview: '#',
+        project_link_preview: 'https://github.com/AchrafMR/achraf_mechhour_portfolio',
     },
     {
         id: 6,

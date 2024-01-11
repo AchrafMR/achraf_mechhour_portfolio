@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import './ProjectsDetails.css'
 import { useParams } from 'react-router-dom';
 import { ProData } from "../../sections/Projects/ProData";
@@ -40,6 +40,10 @@ function ProjectsDetails() {
         //   }
         // ]
     };
+    useEffect(() => {
+        // Scroll to the top when the component mounts
+        window.scrollTo(0, 0);
+      }, []); 
 
     const [selectedImage, setSelectedImage] = useState(null);
     const handleSelectImage = (image) => {
@@ -118,7 +122,7 @@ function ProjectsDetails() {
                             })}
                         </div>
                         <div className="sidebar_btn">
-                            <Button title="Next Project" icon={<FaArrowRightLong />} link={`/Projects/${project.id+1}`} />
+                            <Button title="Next Project" icon={<FaArrowRightLong />} link={`/Projects/${project.id+1}`}  />
                         </div>
                     </div>
                 </div>
