@@ -138,6 +138,7 @@ export const ProData = [
         project_categories:[
             {categorie: "web design"},
             {categorie: "front end"},
+            {tagcategorie: "FullStack"},
         ],
         project_tags:[
             {tag: "#responsive_watches_website"},
@@ -223,7 +224,9 @@ export const ProData = [
         project_details: '"Welcome to my Portfolio  powered by ReactJS! Explore my digital footprint and professional journey through a seamless and dynamic interface. With the cutting-edge capabilities of ReactJS, this website not only showcases my skills and accomplishments but also offers an engaging and responsive user experience. Dive into a visually appealing design that reflects my unique style and expertise. From project highlights to personal achievements, this portfolio is a testament to my dedication and proficiency in the world of web development."',
        
         project_categories:[
-            {categorie: "front end"},
+            {categorie: "Front end"},
+            {categorie: "Personnel website"},
+            {categorie: "FullStack"},
         ],
         project_tags:[
             {tag: "#my_portfolio"},
@@ -252,7 +255,7 @@ export const ProData = [
         ],
         project_title: 'Web Application for employee and leave management ',
         project_date: "01/05/2023",
-        project_desc: [<FaLaravel />  , <SiMysql /> ,<FaCss3Alt />, <FaBootstrap />, <BiLogoJquery />],
+        project_desc: [<FaLaravel />  , <SiMysql /> ,<FaCss3Alt />, <FaBootstrap />, <FaGear/> ,<BiLogoJquery />],
         project_details: '"is a leave management web application intended to make it easier to manage leave requests for a company s employees. The application is specifically designed for employers who use the employment voucher system and who need to track leave requested by their employees ." ',
 
         project_categories:[

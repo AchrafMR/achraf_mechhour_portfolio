@@ -32,6 +32,7 @@ function App() {
         <Router>
           <ScrollLineBar />
           <Navbar />
+      
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/AboutMe' element={<AboutMe />} />
@@ -49,6 +50,8 @@ function App() {
       )}
     </>
   );
+ 
+
 }
 
 export default App;

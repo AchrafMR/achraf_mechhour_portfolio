@@ -35,7 +35,7 @@ function About() {
                     <p><span>age : </span> 20</p>
                     <p><span>gender : </span> male</p>
                     <p><span>language : </span> english, french ,Arabic </p>
-                    <p><span>work : </span> Web full stack developer</p>
+                    <p><span>work : </span> Full stack Web developer</p>
                   </div>
                   <div className="infos_02">
                     <p><span>phone : </span> +212-615363002 </p>
