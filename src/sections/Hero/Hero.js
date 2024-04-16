@@ -33,7 +33,7 @@ function Hero() {
                     <p> I am a highly skilled full-stack Web developer proficient in both front-end and back-end development. I have the ability to create dynamic and user-friendly web applications with exceptional features.</p>
                     <div className="btn">
                         <div id='button'>
-                            <a href={CV} download="cv" className="link">
+                            <a href={CV} download="ACHRAF_MECHHOUR_CV" className="link">
                             <div className="button">
                                 Download CV &nbsp;
                                 <span className="shift"><FaDownload /></span>
