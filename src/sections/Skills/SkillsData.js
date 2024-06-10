@@ -1,5 +1,5 @@
 // react icon
-import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaPython,FaBootstrap,FaFigma, FaWordpress } from "react-icons/fa6";
+import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaPython,FaBootstrap,FaFigma, FaWordpress, FaSymfony } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoJquery } from "react-icons/bi";
 import { SiMysql,SiMongodb,SiPhp } from "react-icons/si";
@@ -18,8 +18,16 @@ export const SkillsData = [
         skill_icon_color: '#f0544285',
         skill_icon_border: '#f05442',
         skill_name: 'laravel',
-        skill_percentage: '75%',
+        skill_percentage: '90%',
         skill_desc: 'Laravel is a PHP web application framework that prioritizes simplicity, elegance, and developer productivity.',
+    },
+    {
+        skill_icon: <FaSymfony />,
+        skill_icon_color: '#FBF7F5',
+        skill_icon_border: '#DED6D3',
+        skill_name: 'Symofny',
+        skill_percentage: '75%',
+        skill_desc: 'Symfony: PHP framework for scalable, robust web applications with reusable components and strong community support.',
     },
     {
         skill_icon: <FaHtml5 />,

@@ -13,7 +13,7 @@ const MyExperience = () => {
             <div className="box">
                 <div className="content">
                     <span className='span'><FaCalendar /> 2023 </span>
-                    <h3>INTERNSHIP</h3>
+                    <h3>INTERNSHIP(on-site)</h3>
                     <p>1 month (April 2023) at Oum Er Rbia Hydraulic Basin Agency in Beni Mellal: <br />
                     <span className='mx-4'>- Develop a web application for employee and leave management . </span></p>
                 </div>
@@ -26,6 +26,17 @@ const MyExperience = () => {
                     <h3>INTERNSHIP(at a distance)</h3>
                     <p>1 month (February 2024) at YT CONSULTING in Belgium: <br />
                     <span className='mx-4'>- Develop a web application to manage invoices for the car dealership. </span></p>
+                </div>
+            </div>
+        </div>
+        <div className="box-container">
+            <div className="box">
+                <div className="content">
+                    <span className='span'><FaCalendar /> 2024 </span>
+                    <h3>Pre-employment internship(on-site)</h3>
+                    <p>Started May 1 (2024) to today at Sheikh Zaid Foundation in morocco: <br />
+                    <span className='mx-4'>- Develop a web application to stock management and electronic commerce. </span>
+                    </p>
                 </div>
             </div>
         </div>

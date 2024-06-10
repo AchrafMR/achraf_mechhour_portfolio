@@ -145,7 +145,6 @@ export const ProData = [
             {tag: "#html"},
             {tag: "#Css"},
             {tag: "#javascript"},
-           
         ],
         project_structure_img: structure_02,
         project_link_preview: 'https://github.com/AchrafMR/responsive_watches_website',

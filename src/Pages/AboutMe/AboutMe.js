@@ -12,7 +12,6 @@ export default function AboutMe() {
   return (
     <>
       <FirstSectionOfPages title="About Me" logo={AboutMe_img} />
-      
       <div className="container">
         <MyEducation />
         <div className="my-5">
