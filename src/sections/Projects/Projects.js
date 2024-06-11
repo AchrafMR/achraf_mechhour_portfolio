@@ -9,8 +9,7 @@ import { ProData } from './ProData';
 
 const Projects = () => {
   return (
-  
-   
+
     <div id='projects' className='container-md mb-5 mt-5'>
       <Titles title='projects' />
       <div className="mt gap">
@@ -30,16 +29,14 @@ const Projects = () => {
                     <span>{item.project_desc}</span>
                   </p>
                 </div>
-                
                     <div className="project_btn">
                     <Button title="More Details" icon={<FaEye />}  link={`/Projects/${item.id}`} />
                     </div>
-               
               </div>
             </div>
           )
         })}
-      </div> 
+      </div>
     </div>
   )
 }

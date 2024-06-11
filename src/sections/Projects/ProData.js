@@ -4,6 +4,7 @@ import img04 from '../../assets/project4.png';
 import img05 from '../../assets/portfolio.png';
 import img06 from '../../assets/project-stage.png';
 import img07 from '../../assets/world_map.png';
+import img08 from '../../assets/stock_management.png';
 
 import structure_01 from '../../assets/file_structure/file_structure_Food-Ordering.png';
 import structure_02 from '../../assets/file_structure/file_structure_watches.png';
@@ -11,6 +12,7 @@ import structure_03 from '../../assets/file_structure/file_structure_worldmap.pn
 import structure_04 from '../../assets/file_structure/file_structure_Coffe-Website.png';
 import structure_05 from '../../assets/file_structure/file_structure_Portfolio.png';
 import structure_06 from '../../assets/file_structure/file_structure_projet_stage.png';
+import structure_07 from '../../assets/file_structure/file_structure_stock_management.png';
 
 
 // PROJECT 1
@@ -73,9 +75,27 @@ import p6img8 from '../../assets/project6/p6img8.png';
 import p6img9 from '../../assets/project6/p6img9.png';
 import p6img10 from '../../assets/project6/p6img10.png';
 
+// PROJECT 7
+import p7img1 from '../../assets/project7/p7img1.png';
+import p7img2 from '../../assets/project7/p7img2.png';
+import p7img3 from '../../assets/project7/p7img3.png';
+import p7img4 from '../../assets/project7/p7img4.png';
+import p7img5 from '../../assets/project7/p7img5.png';
+import p7img6 from '../../assets/project7/p7img6.png';
+import p7img7 from '../../assets/project7/p7img7.png';
+import p7img8 from '../../assets/project7/p7img8.png';
+import p7img9 from '../../assets/project7/p7img9.png';
+import p7img10 from '../../assets/project7/p7img10.png';
+import p7img11 from '../../assets/project7/p7img11.png';
+import p7img12 from '../../assets/project7/p7img12.png';
+import p7img13 from '../../assets/project7/p7img13.png';
+import p7img14 from '../../assets/project7/p7img14.png';
+import p7img15 from '../../assets/project7/p7img15.png';
+import p7img16 from '../../assets/project7/p7img16.png';
+
 // icons
-import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaBootstrap,FaFigma, FaGear } from "react-icons/fa6";
-import { BiLogoJquery } from "react-icons/bi";
+import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaBootstrap,FaFigma, FaGear, FaSymfony } from "react-icons/fa6";
+import { BiLogoJavascript, BiLogoJquery } from "react-icons/bi";
 import { SiMysql} from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 
@@ -184,14 +204,12 @@ export const ProData = [
             {p6img:p4img5},
             {p6img:p4img6},
             {p6img:p4img7},
-           
         ],
         project_image: img04,
         project_date: "10/02/2022",
         project_title: 'coffe website',
         project_desc: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript/>],
         project_details: '" Welcome to my Coffee Website,  Immerse yourself in the world of coffee exploration as you navigate through our user-friendly platform. Discover a visually pleasing interface, crafted with smooth scrolling for easy navigation."',
-       
         project_categories:[
             {categorie: "web design"},
             {categorie: "front end"},
@@ -214,7 +232,6 @@ export const ProData = [
             {p6img:p5img4},
             {p6img:p5img5},
             {p6img:p5img6},
-            
         ],
         project_image: img05,
         project_title: 'Portfolio website',
@@ -250,7 +267,6 @@ export const ProData = [
             {p6img:p6img8},
             {p6img:p6img9},
             {p6img:p6img10},
-           
         ],
         project_title: 'Web Application for employee and leave management ',
         project_date: "01/05/2023",
@@ -269,5 +285,51 @@ export const ProData = [
         ],
         project_structure_img: structure_06,
         project_link_preview: 'https://github.com/AchrafMR/Projet_Stage_App',
+    },
+    {
+        id: 7,
+        project_image: img08,
+        image_gallery:[
+            {p6img:p7img1},
+            {p6img:p7img2},
+            {p6img:p7img3},
+            {p6img:p7img4},
+            {p6img:p7img5},
+            {p6img:p7img6},
+            {p6img:p7img7},
+            {p6img:p7img8},
+            {p6img:p7img9},
+            {p6img:p7img10},
+            {p6img:p7img11},
+            {p6img:p7img12},
+            {p6img:p7img13},
+            {p6img:p7img14},
+            {p6img:p7img15},
+            {p6img:p7img16},
+        ],
+        project_title: 'web application to stock management and electronic commerce. ',
+        project_date: "07/6/2024",
+        project_desc: [<FaSymfony />  , <SiMysql /> ,<FaCss3Alt />, <FaBootstrap />, <FaGear/> ,<BiLogoJquery />,<BiLogoJavascript />],
+        project_details: '"A web application for stock management and e-commerce helps businesses track inventory, manage orders, and sell products online. It includes features for inventory control, order processing, and online storefront management, improving efficiency and customer experience." ',
+
+        project_categories:[
+            {categorie: "web application"},
+            {categorie: "back end"},
+            {categorie: "full stack"},
+            // {categorie: ""},
+        ],
+        project_tags:[
+            {tag: "#web_application "},
+            {tag: "#Symfony"},
+            {tag: "#FullStack"},
+            {tag: "#Paypal_Payement"},
+            {tag: "#Git"},
+            {tag: "#GitHub"},
+            {tag: "#DataTable"},
+            {tag: "#ChartJs"},
+            // {tag: "#ChartJs"},
+        ],
+        project_structure_img: structure_07,
+        project_link_preview: 'https://github.com/AchrafMR/stock_management_app',
     },
 ]

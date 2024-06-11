@@ -23,7 +23,7 @@ export const SkillsData = [
     },
     {
         skill_icon: <FaSymfony />,
-        skill_icon_color: '#FBF7F5',
+        skill_icon_color: '#474a8a85',
         skill_icon_border: '#DED6D3',
         skill_name: 'Symofny',
         skill_percentage: '75%',
