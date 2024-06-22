@@ -2,8 +2,6 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactPage.css';
 import Titles from '../../components/Titles/Titles';
-import Button from '../../components/Button/Button';
-import { BsFillSendCheckFill } from 'react-icons/bs';
 import Contact_img from '../../assets/contact_img.png';
 import FirstSectionOfPages from '../../components/FirstSectionOfPages/FirstSectionOfPages';
 import MoveToNextPage from '../../sections/MoveToNextPage/MoveToNextPage';

@@ -6,8 +6,7 @@ import MoveToNextPage from "../../sections/MoveToNextPage/MoveToNextPage";
 import HireMe from "../../sections/HireMe/HireMe"
 import Skills from "../../sections/Skills/Skills";
 import Titles from "../../components/Titles/Titles";
-import microsoft from "../../assets/microsoft_logo.webp"
-import { FaCloud, FaFileLines, FaGear, FaGit, FaGithub } from "react-icons/fa6";
+import { FaCloud, FaFileLines, FaGear, FaGit } from "react-icons/fa6";
 import {MdWeb} from 'react-icons/md'
 
 export default function SkillsPage() {

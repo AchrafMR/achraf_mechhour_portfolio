@@ -1,5 +1,5 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-// import Titles from '../../components/Titles/Titles'
 import './FirstSectionOfPages.css'
 
 export default function FirstSectionOfPages(props) {

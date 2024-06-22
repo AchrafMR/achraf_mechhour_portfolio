@@ -71,6 +71,7 @@ function ProjectsDetails() {
                            <Slider {...settings}>
                                 {project.image_gallery.map((image,index)=>{
                                     return(
+                                        // eslint-disable-next-line jsx-a11y/alt-text
                                         <img src={image.p6img} key={index} className={selectedImage === image.p6img ? "active_image_gallery" : ""} onClick={()=> handleSelectImage(image.p6img)} />
                                     );
                                 })}

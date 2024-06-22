@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import './HireMe.css'
 import Titles from '../../components/Titles/Titles'

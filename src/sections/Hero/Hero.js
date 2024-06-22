@@ -1,5 +1,5 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
-import Button from '../../components/Button/Button';
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 import { FaDownload } from "react-icons/fa6";
 import Coding from '../../assets/coding.png'

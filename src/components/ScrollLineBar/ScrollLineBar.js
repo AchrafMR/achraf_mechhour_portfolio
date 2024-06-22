@@ -17,6 +17,7 @@ const ScrollLineBar = () => {
       return () => window.removeEventListener('scroll', handleScroll);
     }, []);
   
+    // eslint-disable-next-line no-unused-vars
     const handleScrollTo = () => {
       scroller.scrollTo('content', {
         duration: 800,
