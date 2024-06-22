@@ -31,7 +31,7 @@ function About() {
                   <div className="infos_01">
                     <p><span>Age : </span> 21</p>
                     <p><span>Gender : </span> Male</p>
-                    <p><span>Language : </span> English, french ,Arabic </p>
+                    <p><span>Language : </span> french, English, Arabic </p>
                     <p><span>Work : </span> Full stack Web developer</p>
                   </div>
                   <div className="infos_02">
