@@ -10,22 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Push
     steps:
-      - name: git-checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install all dependencies
+      - name: Install Dependencies
         run: npm install
-      # - name: Install Dev dependencies
-      #   run: npm install -D tailwindcss postcss autoprefixer
 
       - name: Build
         run: npm run build
 
-      - name: Push
+      - name: Push to Build Branch
         uses: s0/git-publish-subdir-action@develop
+        with:
+          directory: build
+          branch: build
         env:
-          REPO: self
-          BRANCH: build
-          FOLDER: build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE: "Build: ({sha}) {msg}"
