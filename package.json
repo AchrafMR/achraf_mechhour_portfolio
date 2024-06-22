@@ -1,8 +1,8 @@
 {
-  "homepage": "https://AchrafMR.github.io/achraf_mechhour_portfolio",
   "name": "achraf_mechhour_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://AchrafMR.github.io/achraf_mechhour_portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,6 +19,10 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,9 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.1.1"
   }
 }
