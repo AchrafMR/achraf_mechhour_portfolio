@@ -2,7 +2,7 @@
 import React from 'react'
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 import { FaDownload } from "react-icons/fa6";
-import Coding from '../../assets/coding.png'
+import Coding from '../../assets/coding.jpg'
 // import { saveAs } from 'file-saver';
 import CV from '../../assets/Resume.pdf';
 import './Hero.css'

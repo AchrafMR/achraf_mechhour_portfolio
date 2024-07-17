@@ -33,13 +33,22 @@
 }
 
 .Hero_image{
-    width: 100%;
+    width: 70%;
     height: auto;
+    border-radius: 51px;
+    /* box-shadow:  1px 1px 2px #b1b1b1,
+                -1px -1px 2px #ffbd07;
+    margin-right: 50p; */
+
 }
 
 .Hero_image img{
-    width: 100%;
-    /* margin-right: -10%; */
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    /* margin-right: 50px; */
+    box-shadow: #b7b09c;
+
 }
 
 @media (max-width: 480px) {
