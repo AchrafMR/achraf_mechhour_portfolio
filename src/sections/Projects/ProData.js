@@ -5,6 +5,7 @@ import img05 from '../../assets/portfolio.png';
 import img06 from '../../assets/project-stage.png';
 import img07 from '../../assets/world_map.png';
 import img08 from '../../assets/stock_management.png';
+import img09 from '../../assets/ConsultingApp.png';
 
 import structure_01 from '../../assets/file_structure/file_structure_Food-Ordering.png';
 import structure_02 from '../../assets/file_structure/file_structure_watches.png';
@@ -13,6 +14,7 @@ import structure_04 from '../../assets/file_structure/file_structure_Coffe-Websi
 import structure_05 from '../../assets/file_structure/file_structure_Portfolio.png';
 import structure_06 from '../../assets/file_structure/file_structure_projet_stage.png';
 import structure_07 from '../../assets/file_structure/file_structure_stock_management.png';
+import structure_08 from '../../assets/file_structure/file_structure_consulting_app.webp';
 
 
 // PROJECT 1
@@ -92,6 +94,15 @@ import p7img13 from '../../assets/project7/p7img13.png';
 import p7img14 from '../../assets/project7/p7img14.png';
 import p7img15 from '../../assets/project7/p7img15.png';
 import p7img16 from '../../assets/project7/p7img16.png';
+
+//project 8
+import p8img1 from '../../assets/project8/p8img1.png';
+import p8img2 from '../../assets/project8/p8img2.webp';
+import p8img3 from '../../assets/project8/p8img3.webp';
+import p8img4 from '../../assets/project8/p8img4.webp';
+import p8img5 from '../../assets/project8/p8img5.webp';
+import p8img6 from '../../assets/project8/p8img6.webp';
+
 
 // icons
 import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaBootstrap,FaFigma, FaGear, FaSymfony } from "react-icons/fa6";
@@ -331,5 +342,36 @@ export const ProData = [
         ],
         project_structure_img: structure_07,
         project_link_preview: 'https://github.com/AchrafMR/stock_management_app',
+    },
+    {
+        id: 8,
+        image_gallery:[
+            {p8img:p8img1},
+            {p8img:p8img2},
+            {p8img:p8img3},
+            {p8img:p8img4},
+            {p8img:p8img5},
+            {p8img:p8img6},
+        ],
+        project_image: img09,
+        project_title: 'Consulting Appointment App',
+        project_date: "01/06/2024",
+        project_desc: [<FaLaravel />  , <SiMysql /> ,<FaCss3Alt />, <FaBootstrap />, <FaGear/> ,<BiLogoJquery />],
+        project_details: '"This app simplifies booking and managing appointments for clients and consultants. Users can select available dates and times, with automatic time zone adjustments to match the consultants time zone in Dubai. The app checks availability before confirming appointments and integrates a secure payment gateway for processing payments. Administrators can manage reservations through an intuitive panel. After payment, a Zoom meeting link is automatically generated using the Zoom API "',
+
+        project_categories:[
+            {categorie: "Front end"},
+            {categorie: "back end"},
+            {categorie: "FullStack"},
+        ],
+        project_tags:[
+            {tag: "#laravel"},
+            {tag: "#consulting_app"},
+            {tag: "#zoom_api"},
+            {tag: "#web_development"},
+            {tag: "#Teamwork"},
+        ],
+        project_structure_img: structure_08,
+        project_link_preview: 'https://drniveen.com/',
     },
 ]
