@@ -249,7 +249,6 @@ export const ProData = [
         project_date: "08/01/2024",
         project_desc: [<FaFigma/>,<FaCss3Alt />, <FaBootstrap />,<FaReact />],
         project_details: '"Welcome to my Portfolio  powered by ReactJS! Explore my digital footprint and professional journey through a seamless and dynamic interface. With the cutting-edge capabilities of ReactJS, this website not only showcases my skills and accomplishments but also offers an engaging and responsive user experience. Dive into a visually appealing design that reflects my unique style and expertise. From project highlights to personal achievements, this portfolio is a testament to my dedication and proficiency in the world of web development."',
-       
         project_categories:[
             {categorie: "Front end"},
             {categorie: "Personnel website"},
