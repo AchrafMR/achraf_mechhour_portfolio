@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/achraf_mechhour_portfolio/static/css/main.412a9f82.css",
-    "main.js": "/achraf_mechhour_portfolio/static/js/main.8c2bc656.js",
-    "static/media/coding.png": "/achraf_mechhour_portfolio/static/media/coding.5dfb27628eabe4264455.png",
+    "main.js": "/achraf_mechhour_portfolio/static/js/main.bb1221d7.js",
     "static/media/p4img1.png": "/achraf_mechhour_portfolio/static/media/p4img1.402d358a2ea94e953b3c.png",
     "static/media/p4img6.png": "/achraf_mechhour_portfolio/static/media/p4img6.b0f328acf1febb2b9f1b.png",
     "static/media/p8img1.png": "/achraf_mechhour_portfolio/static/media/p8img1.045663f5f372b6c4784c.png",
@@ -14,6 +13,7 @@
     "static/media/p2img1.png": "/achraf_mechhour_portfolio/static/media/p2img1.0ed96b2a7bffed3187e7.png",
     "static/media/p2img7.png": "/achraf_mechhour_portfolio/static/media/p2img7.75f3a9616d3280d57c98.png",
     "static/media/p4img2.png": "/achraf_mechhour_portfolio/static/media/p4img2.4f15c4b095190acdb13a.png",
+    "static/media/coding.png": "/achraf_mechhour_portfolio/static/media/coding.c4be89c0668fb9cc3c52.png",
     "static/media/p4img3.png": "/achraf_mechhour_portfolio/static/media/p4img3.19296049186fa3f59f13.png",
     "static/media/service_img.png": "/achraf_mechhour_portfolio/static/media/service_img.14b6819dcd5934287bd1.png",
     "static/media/project4.png": "/achraf_mechhour_portfolio/static/media/project4.72c568d66e37b6c05097.png",
@@ -107,10 +107,10 @@
     "static/media/slick.woff": "/achraf_mechhour_portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/achraf_mechhour_portfolio/index.html",
     "main.412a9f82.css.map": "/achraf_mechhour_portfolio/static/css/main.412a9f82.css.map",
-    "main.8c2bc656.js.map": "/achraf_mechhour_portfolio/static/js/main.8c2bc656.js.map"
+    "main.bb1221d7.js.map": "/achraf_mechhour_portfolio/static/js/main.bb1221d7.js.map"
   },
   "entrypoints": [
     "static/css/main.412a9f82.css",
-    "static/js/main.8c2bc656.js"
+    "static/js/main.bb1221d7.js"
   ]
 }
