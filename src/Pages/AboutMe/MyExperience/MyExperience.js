@@ -13,8 +13,19 @@ const MyExperience = () => {
             <div className="box">
                 <div className="content">
                     <span className='span'><FaCalendar /> 2024 </span>
+                    <h3>FULL STACK DEVELOPER(on-site)</h3>
+                    <p>Started August 1 (2024) to today at Sheikh Zaid Foundation in morocco: <br />
+                    <span className='mx-4'>- Development, creation, and maintenance of the foundation's applications. </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div className="box-container">
+            <div className="box">
+                <div className="content">
+                    <span className='span'><FaCalendar /> 2024 </span>
                     <h3>INTERNSHIP(on-site)</h3>
-                    <p>Started May 1 (2024) to today at Sheikh Zaid Foundation in morocco: <br />
+                    <p>Started May 1 (2024) to 31 July at Sheikh Zaid Foundation in morocco: <br />
                     <span className='mx-4'>- Develop a web application to stock management and electronic commerce. </span>
                     </p>
                 </div>
@@ -30,7 +41,7 @@ const MyExperience = () => {
                 </div>
             </div>
         </div>
-         <div className="box-container">
+        <div className="box-container">
             <div className="box">
                 <div className="content">
                     <span className='span'><FaCalendar /> 2023 </span>

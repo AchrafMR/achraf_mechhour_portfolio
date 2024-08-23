@@ -24,7 +24,7 @@ function Hero() {
                 <li></li>
             </ul>
 
-            
+
         </div >
         <div id="Hero">
             <div className="hero_container">
