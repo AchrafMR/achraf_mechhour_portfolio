@@ -23,6 +23,8 @@ function Hero() {
                 <li></li>
                 <li></li>
             </ul>
+
+            
         </div >
         <div id="Hero">
             <div className="hero_container">
@@ -45,7 +47,7 @@ function Hero() {
                     <SocialIcons />
                 </div>
                 <div className="Hero_image">
-                    <img src={Coding} className="img-fluid" alt="Hero image" />
+                <img src={Coding} className="img-fluid" alt="Hero image" />
                 </div>
             </div>
         </div>
