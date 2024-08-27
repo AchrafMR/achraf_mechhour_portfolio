@@ -10,7 +10,7 @@
     display: flex;
     gap: 40px;
     align-items: center;
-    justify-content: center; /* Center the content horizontally */
+    justify-content: center;
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
@@ -119,16 +119,43 @@
     .about_me, .code-container {
         width: 100%; /* Make them full-width on small screens */
     }
+    .about_me h1 {
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+    .about_me p {
+        font-size: 12px; /* Reduce font size for smaller screens */
+        line-height: 24px; /* Adjust line height for readability */
+    }
+    .about_me .btn {
+        width: 50%; /* Adjust button width */
+    }
+    .code-container {
+        font-size: 12px; /* Reduce font size for code */
+        padding: 12px; /* Reduce padding */
+    }
+    .code-container .dots {
+        margin-bottom: 12px; /* Add more space between dots and code */
+    }
 }
 
 @media (max-width: 530px) {
     #about {
-        margin-bottom: 150%;
+        margin-bottom: 50%;
     }
     .about_information {
         display: block;
     }
     .about_text_desc {
         text-align: justify;
+        font-size: 11px; /* Further reduce font size for very small screens */
+    }
+    .code-container pre {
+        font-size: 11px; /* Adjust code font size */
+    }
+    .code-container {
+        padding: 10px; /* Reduce padding further */
+    }
+    .about_me .btn {
+        width: 60%; /* Further adjust button width */
     }
 }
