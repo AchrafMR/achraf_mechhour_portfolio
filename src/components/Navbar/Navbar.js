@@ -21,7 +21,7 @@ function Navbar() {
         return () => {
           $('#navTrigger').off('click');
         };
-    }, []);  
+    }, []);
 
     const [activeLink, setActiveLink] = useState("/");
 
@@ -35,7 +35,7 @@ function Navbar() {
                 <div className="d-flex justify-content-between align-items-center" id='mix_top_nav'>
                     <div className="email">
                         <span className="envelope"><FaEnvelope /></span>
-                        <span className='email_span'> achrafmechhour01@gmail.com</span>
+                        <span className='email_span'> achrafmchhr@gmail.com</span>
                     </div>
                     <div className="social_media">
                     <SocialIcons />

@@ -5,18 +5,17 @@
     padding-bottom: 0;
 }
 
-/* Flex container for description and code sections */
 #about_container {
     display: flex;
     gap: 40px;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap;
 }
 
 /* Description section styling */
 .about_me {
-    width: 45%; /* Set a specific width to control the layout */
+    width: 45%;
     color: #aaa;
     font-size: 15px;
     line-height: 30px;
@@ -40,9 +39,9 @@
 
 /* Code snippet section styling */
 .code-container {
-    width: 45%; /* Set a specific width to control the layout */
+    width: 45%;
     background-color: #0d1224;
-    border: 1px solid var(--main-color); /* Line color under the dots */
+    border: 1px solid var(--main-color);
     border-radius: 8px;
     padding: 16px;
     color: #ffffff;
@@ -56,9 +55,9 @@
     content: "";
     display: block;
     height: 1px;
-    background-color: var(--main-color); /* Line color under the dots */
+    background-color: var(--main-color);
     position: absolute;
-    top: 36px; /* Adjust to position below the dots */
+    top: 36px;
     left: 0px;
     right: 0px;
 }
@@ -87,7 +86,7 @@
     background: transparent;
     border: none;
     color: #ffffff;
-    margin-top: 16px; /* Push the code down slightly */
+    margin-top: 16px;
 }
 
 /* Specific color customization for your code */
@@ -114,27 +113,27 @@
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     #about_container {
-        flex-direction: column; /* Stack the items vertically on smaller screens */
+        flex-direction: column;
     }
     .about_me, .code-container {
-        width: 100%; /* Make them full-width on small screens */
+        width: 100%;
     }
     .about_me h1 {
-        font-size: 20px; /* Reduce font size for smaller screens */
+        font-size: 20px;
     }
     .about_me p {
-        font-size: 12px; /* Reduce font size for smaller screens */
-        line-height: 24px; /* Adjust line height for readability */
+        font-size: 12px;
+        line-height: 24px;
     }
     .about_me .btn {
-        width: 50%; /* Adjust button width */
+        width: 50%;
     }
     .code-container {
-        font-size: 12px; /* Reduce font size for code */
-        padding: 12px; /* Reduce padding */
+        font-size: 12px;
+        padding: 12px;
     }
     .code-container .dots {
-        margin-bottom: 12px; /* Add more space between dots and code */
+        margin-bottom: 12px; 
     }
 }
 
@@ -147,15 +146,15 @@
     }
     .about_text_desc {
         text-align: justify;
-        font-size: 11px; /* Further reduce font size for very small screens */
+        font-size: 11px;
     }
     .code-container pre {
-        font-size: 11px; /* Adjust code font size */
+        font-size: 11px;
     }
     .code-container {
-        padding: 10px; /* Reduce padding further */
+        padding: 10px;
     }
     .about_me .btn {
-        width: 60%; /* Further adjust button width */
+        width: 60%;
     }
 }
