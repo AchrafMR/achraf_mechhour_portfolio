@@ -26,7 +26,6 @@
     gap:1.5rem;
 }
 
-
 .additional_box .icon{
     height:6rem;
     width:6rem;
@@ -81,7 +80,7 @@
     .qr_code_certife img{
         width: 40%;
         margin-left: 345px;
-    }    
+    }
 }
 
 @media (max-width:530px) {
@@ -94,7 +93,7 @@
     .qr_code_certife img{
         width: 40%;
         margin-left: 115px;
-    }    
+    }
     .certification_section ul{
         margin-left: -40px;
         text-align: center;

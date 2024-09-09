@@ -6,6 +6,8 @@ import MoveToNextPage from "../../sections/MoveToNextPage/MoveToNextPage";
 import HireMe from "../../sections/HireMe/HireMe"
 import Skills from "../../sections/Skills/Skills";
 import Titles from "../../components/Titles/Titles";
+import  microsoft from "../../assets/microsoft-logo.png";
+import cisco from "../../assets/cisco.png";
 import { FaCloud, FaFileLines, FaGear, FaGit } from "react-icons/fa6";
 import {MdWeb} from 'react-icons/md'
 
@@ -54,7 +56,7 @@ export default function SkillsPage() {
               <Titles title="Certificates" />
               <div className="certif_box d-flex justify-content-center align-items-center">
                 <div className="qr_code_certife">
-                  <img src="https://imgs.search.brave.com/6QtXK9KMsH3nNKDUxvUK5oNvam-s6Xn12Azfq-yrP7w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tYWls/bWV0ZW9yLmNvbS9s/b2dvcy9hc3NldHMv/UE5HL01pY3Jvc29m/dF9Mb2dvXzEyOHB4/LnBuZw" alt="qr_code_Certificate" />
+                  <img src={microsoft} alt="qr_code_Certificate" />
                 </div>
                 <div>
                   <ul>
@@ -68,10 +70,10 @@ export default function SkillsPage() {
             </div>
             <div className="certification_section">
               {/* <Titles title="Certificates" /> */}
-               <div className=" d-flex justify-content-center align-items-center">
+               <div className=" certif_box d-flex justify-content-center align-items-center">
                <div className="qr_code_certife">
-                <img src="https://logodownload.org/wp-content/uploads/2014/04/cisco-logo-0.png" alt="" />
-                </div>
+               <img src={cisco} alt="qr_code_Certificate" />
+               </div>
                 <div>
                   <ul>
                     <li>Python Essentials 1(CISCO)</li>
