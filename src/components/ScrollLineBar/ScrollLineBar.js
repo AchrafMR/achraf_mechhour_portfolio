@@ -12,11 +12,11 @@ const ScrollLineBar = () => {
         const percentage = (scrollY / scrollHeight) * 100;
         setScrollPercentage(percentage);
       };
-  
+
       window.addEventListener('scroll', handleScroll);
       return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-  
+
     // eslint-disable-next-line no-unused-vars
     const handleScrollTo = () => {
       scroller.scrollTo('content', {
@@ -24,7 +24,7 @@ const ScrollLineBar = () => {
         smooth: 'easeInOutQuad',
       });
     };
-  
+
     return (
         <div className="progress">
             <div className="scroll-line-bar">
@@ -37,7 +37,7 @@ const ScrollLineBar = () => {
                     {/* Content */}
                 </div>
                 </Element>
-            </div>  
+            </div>
         </div>
     )
 }

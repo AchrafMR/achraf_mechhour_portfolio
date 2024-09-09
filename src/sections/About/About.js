@@ -28,7 +28,7 @@ function About() {
                                 &nbsp;&nbsp;<span className="code-highlight-property">work</span>: <span className="code-highlight-string">'Full Stack Web Developer'</span>,<br />
                                 &nbsp;&nbsp;<span className="code-highlight-property">contact</span>: {'{'}<br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span className="code-highlight-property">phone</span>: <span className="code-highlight-string">' +212-615363002'</span>,<br />
-                                &nbsp;&nbsp;&nbsp;&nbsp;<span className="code-highlight-property">email</span>: <span className="code-highlight-string">'achrafmechhour01@gmail.com'</span>,<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span className="code-highlight-property">email</span>: <span className="code-highlight-string">'achrafmchhr@gmail.com'</span>,<br />
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span className="code-highlight-property">country</span>: <span className="code-highlight-string">'Morocco'</span><br />
                                 &nbsp;&nbsp;{'}'}<br />
                                 {'};'}
