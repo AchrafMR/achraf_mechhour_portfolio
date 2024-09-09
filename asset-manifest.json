@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/achraf_mechhour_portfolio/static/css/main.1f30557a.css",
-    "main.js": "/achraf_mechhour_portfolio/static/js/main.381609ee.js",
+    "main.js": "/achraf_mechhour_portfolio/static/js/main.94df1434.js",
     "static/media/p4img1.png": "/achraf_mechhour_portfolio/static/media/p4img1.402d358a2ea94e953b3c.png",
     "static/media/p4img6.png": "/achraf_mechhour_portfolio/static/media/p4img6.b0f328acf1febb2b9f1b.png",
     "static/media/p8img1.png": "/achraf_mechhour_portfolio/static/media/p8img1.045663f5f372b6c4784c.png",
@@ -58,6 +58,7 @@
     "static/media/p7img13.png": "/achraf_mechhour_portfolio/static/media/p7img13.fad84622ad3b8710d7ac.png",
     "static/media/project-stage.png": "/achraf_mechhour_portfolio/static/media/project-stage.1ea4ae0d6ec23d032188.png",
     "static/media/p5img6.png": "/achraf_mechhour_portfolio/static/media/p5img6.3a2f5b6482434afbad89.png",
+    "static/media/cisco.png": "/achraf_mechhour_portfolio/static/media/cisco.e8d523a6dea63f94ec5d.png",
     "static/media/p6img1.png": "/achraf_mechhour_portfolio/static/media/p6img1.5fa210ae55355d390013.png",
     "static/media/p1img11.png": "/achraf_mechhour_portfolio/static/media/p1img11.8113daf965d81e6880d7.png",
     "static/media/p6img7.png": "/achraf_mechhour_portfolio/static/media/p6img7.854ab6135ed2f822a2e2.png",
@@ -89,6 +90,7 @@
     "static/media/p6img8.png": "/achraf_mechhour_portfolio/static/media/p6img8.9d6a254f1d3cc39102d0.png",
     "static/media/file_structure_Food-Ordering.png": "/achraf_mechhour_portfolio/static/media/file_structure_Food-Ordering.241ab894a280f8f1df46.png",
     "static/media/p7img15.png": "/achraf_mechhour_portfolio/static/media/p7img15.d9697606182e98c70b4d.png",
+    "static/media/microsoft-logo.png": "/achraf_mechhour_portfolio/static/media/microsoft-logo.d7b59593ba268ead76f2.png",
     "static/media/file_structure_Portfolio.png": "/achraf_mechhour_portfolio/static/media/file_structure_Portfolio.012d9ff8f007d25d90d8.png",
     "static/media/p8img6.webp": "/achraf_mechhour_portfolio/static/media/p8img6.ac4164d6f216fd974c48.webp",
     "static/media/p8img2.webp": "/achraf_mechhour_portfolio/static/media/p8img2.638645cc579d3efd8a6b.webp",
@@ -106,10 +108,10 @@
     "static/media/slick.woff": "/achraf_mechhour_portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/achraf_mechhour_portfolio/index.html",
     "main.1f30557a.css.map": "/achraf_mechhour_portfolio/static/css/main.1f30557a.css.map",
-    "main.381609ee.js.map": "/achraf_mechhour_portfolio/static/js/main.381609ee.js.map"
+    "main.94df1434.js.map": "/achraf_mechhour_portfolio/static/js/main.94df1434.js.map"
   },
   "entrypoints": [
     "static/css/main.1f30557a.css",
-    "static/js/main.381609ee.js"
+    "static/js/main.94df1434.js"
   ]
 }
