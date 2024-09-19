@@ -65,7 +65,7 @@ export default function ContactPage() {
           <Titles title="contact me" />
           <div className="contact_info" id="mobile_column">
             <div className="text_img">
-              <img src={Contact_img_02} alt="contact image" />
+            <img src={Contact_img_02} alt="Contact illustration" />
             </div>
             <div>
               <div className="text">

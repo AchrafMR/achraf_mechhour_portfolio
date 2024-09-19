@@ -31,41 +31,41 @@
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1000; /* Ensure it's on top */
-  }
-  
-  .popup-modal-content {
-    color: #00a740;
-    background-color: #192415d2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 255, 13, 0.87);
-    text-align: center;
-    max-width: 500px;
-    width: 80%;
-    position: relative;
-  }
-  
-  .close-btn {
-    position: absolute;
-    top: -5px;
-    right: 15px;
-    font-size: 37px;
-    cursor: pointer;
-    color: #ffc31f;
-  }
-  
-  .close-btn:hover {
-    color: #c70032; /* Change color on hover */
-  }
-  
+}
+
+.popup-modal-content {
+color: #09ff00;
+background-color: #192415d2;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(255, 209, 56, 0.87);
+text-align: center;
+max-width: 500px;
+width: 80%;
+position: relative;
+}
+
+.close-btn {
+position: absolute;
+top: -5px;
+right: 15px;
+font-size: 37px;
+cursor: pointer;
+color: #ffc31f;
+}
+
+.close-btn:hover {
+color: #c70032; /* Change color on hover */
+}
+
   /* Error Message Styles */
-  .error-message {
-    color: #c70032; /* Red color for errors */
-    font-size: 14px;
-    margin-top: 5px;
-    text-align: left;
-  }
-  
+.error-message {
+color: #c70032; /* Red color for errors */
+font-size: 14px;
+margin-top: 5px;
+text-align: left;
+}
+
 .text_img {
     width: 80%;
     /* background-color: #fff; */
