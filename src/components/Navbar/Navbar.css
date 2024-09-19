@@ -34,7 +34,8 @@
 }
 
 .nav .con {
-    margin: -15px 7%;
+    margin: -20px 7%;
+    padding-bottom: -10%;
 }
 
 .nav .logo {
@@ -46,8 +47,8 @@
 }
 
 .nav .logo img {
-    width: 85px;
-    height: 81px;
+    width: 75px;
+    height: 61px;
 }
 
 /* Menu List Styles */
@@ -160,7 +161,7 @@
         display: block;
     }
     .nav .logo {
-        margin-top: -52px;
+        margin-top: -38px;
         margin-left: -5%;
     }
     .nav div.main_list {
