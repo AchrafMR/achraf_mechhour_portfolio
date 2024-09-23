@@ -42,9 +42,9 @@ function Navbar() {
           </div>
         </div>
         <div className="con">
-          <a href="/" className="logo">
+          <div className="logo">
             <img src={Logo} alt="achraf_logo" />
-          </a>
+          </div>
           <div id="mainListDiv" className="main_list">
             <ul className="navlinks">
               <li><NavLink to="/" id='nav_link' className={activeLink === '/' ? 'active-link' : ''}>Home</NavLink></li>
