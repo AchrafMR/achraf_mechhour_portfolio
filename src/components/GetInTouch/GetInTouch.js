@@ -6,8 +6,7 @@ import {Link} from 'react-router-dom';
 export default function GetInTouch() {
   return (
     <>
-        <div className="getintouch">   
-              
+        <div className="getintouch">
             <div id="getintouch" className="container d-flex justify-content-between align-items-center">
             <a href="#" className="logo111">
                     <img src={Logo} alt="achraf_logo" />
@@ -38,7 +37,6 @@ export default function GetInTouch() {
                             <h1>Social</h1>
                             <li><a href="https://github.com/AchrafMR">Github</a></li>
                             <li><a href="https://www.linkedin.com/in/achraf-mechhour-6825a2289">Linkedin</a></li>
-                            
                         </ul>
                     </div>
                 </div>
