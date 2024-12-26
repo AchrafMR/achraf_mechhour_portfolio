@@ -1,6 +1,8 @@
 // react icon
 import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaPython,FaBootstrap,FaFigma, FaWordpress, FaSymfony } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiSpringboot,SiDocker } from "react-icons/si";
+
 import { BiLogoJquery } from "react-icons/bi";
 import { SiMysql,SiMongodb,SiPhp, SiMicrosoftsqlserver, SiPostgresql, SiTailwindcss } from "react-icons/si";
 
@@ -30,6 +32,14 @@ export const SkillsData = [
         skill_desc: 'Symfony: PHP framework for scalable, robust web applications with reusable components and strong community support.',
     },
     {
+        skill_icon: <SiSpringboot />, // Correct Spring icon
+        skill_icon_color: '#4db33d85',
+        skill_icon_border: '#4db33d',
+        skill_name: 'Spring Boot', // Updated from Symfony to Spring Boot
+        skill_percentage: '75%', // Same as the original object
+        skill_desc: 'Spring Boot: Java framework for building production-ready, stand-alone, and enterprise-grade applications with ease.', // Updated description
+    },
+    {
         skill_icon: <FaHtml5 />,
         skill_icon_color: '#e34c2685',
         skill_icon_border: '#e34c26',
@@ -37,6 +47,15 @@ export const SkillsData = [
         skill_percentage: '98%',
         skill_desc: 'HTML (Hypertext Markup Language) is the standard markup language for creating and structuring content on the World Wide Web.',
     },
+    {
+        skill_icon: <SiDocker />, // Correct Docker icon
+        skill_icon_color: '#2496ed85',
+        skill_icon_border: '#2496ed',
+        skill_name: 'Docker',
+        skill_percentage: '85%',
+        skill_desc: 'Docker: Platform for developing, shipping, and running applications in containers to ensure consistent environments across systems.',
+    },
+
     {
         skill_icon: <FaCss3Alt />,
         skill_icon_color: '#264ce485',
