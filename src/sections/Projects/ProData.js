@@ -103,12 +103,12 @@ import p7img22 from '../../assets/project7/project8/p8img6.png';
 
 
 //project 8
-import p8img1 from '../../assets/project8/p8img11.png';
-import p8img2 from '../../assets/project8/p8img2.png';
-import p8img3 from '../../assets/project8/p8img3.png';
-import p8img4 from '../../assets/project8/p8img4.png';
-import p8img5 from '../../assets/project8/p8img5.png';
-import p8img6 from '../../assets/project8/p8img6.png';
+// import p8img1 from '../../assets/project8/p8img11.png';
+// import p8img2 from '../../assets/project8/p8img2.png';
+// import p8img3 from '../../assets/project8/p8img3.png';
+// import p8img4 from '../../assets/project8/p8img4.png';
+// import p8img5 from '../../assets/project8/p8img5.png';
+// import p8img6 from '../../assets/project8/p8img6.png';
 
 // icons
 import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaBootstrap,FaFigma, FaGear, FaSymfony } from "react-icons/fa6";
