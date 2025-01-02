@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/achraf_mechhour_portfolio/static/css/main.933e36c8.css",
-    "main.js": "/achraf_mechhour_portfolio/static/js/main.25173960.js",
+    "main.js": "/achraf_mechhour_portfolio/static/js/main.41adbd0a.js",
     "static/media/p4img1.png": "/achraf_mechhour_portfolio/static/media/p4img1.402d358a2ea94e953b3c.png",
     "static/media/p4img6.png": "/achraf_mechhour_portfolio/static/media/p4img6.b0f328acf1febb2b9f1b.png",
-    "static/media/p8img1.png": "/achraf_mechhour_portfolio/static/media/p8img1.045663f5f372b6c4784c.png",
+    "static/media/p8img11.png": "/achraf_mechhour_portfolio/static/media/p8img11.bfa86be7da97b07fc2ff.png",
     "static/media/p1img6.png": "/achraf_mechhour_portfolio/static/media/p1img6.04dc02606a37f6c4e186.png",
     "static/media/p2img6.png": "/achraf_mechhour_portfolio/static/media/p2img6.bc1ce3313fe91931fb8f.png",
     "static/media/p1img8.png": "/achraf_mechhour_portfolio/static/media/p1img8.2aaf72f4803280680b4d.png",
@@ -51,6 +51,8 @@
     "static/media/food.png": "/achraf_mechhour_portfolio/static/media/food.7f2e37138d08cba6b9fd.png",
     "static/media/contact_img_02.png": "/achraf_mechhour_portfolio/static/media/contact_img_02.46a34d6755de1c345b75.png",
     "static/media/p5img1.png": "/achraf_mechhour_portfolio/static/media/p5img1.6c42ef9faf74058e3187.png",
+    "static/media/p8img2.png": "/achraf_mechhour_portfolio/static/media/p8img2.c700de4be81083dbc2be.png",
+    "static/media/p8img6.png": "/achraf_mechhour_portfolio/static/media/p8img6.c6d0b315897d00c07765.png",
     "static/media/portfolio.png": "/achraf_mechhour_portfolio/static/media/portfolio.7dfc7af470eb23d0804d.png",
     "static/media/p7img6.png": "/achraf_mechhour_portfolio/static/media/p7img6.07d3ae101ca01d881e6c.png",
     "static/media/p7img4.png": "/achraf_mechhour_portfolio/static/media/p7img4.5ce658789151a7a99773.png",
@@ -67,8 +69,11 @@
     "static/media/p7img5.png": "/achraf_mechhour_portfolio/static/media/p7img5.86c44f836595808a2706.png",
     "static/media/p1img3.png": "/achraf_mechhour_portfolio/static/media/p1img3.1cae3690d23ba1922541.png",
     "static/media/p7img10.png": "/achraf_mechhour_portfolio/static/media/p7img10.3f03447cec7936849284.png",
+    "static/media/p8img4.png": "/achraf_mechhour_portfolio/static/media/p8img4.1a8cd62b75e7d62d2d5e.png",
     "static/media/p7img7.png": "/achraf_mechhour_portfolio/static/media/p7img7.15014335954d338149c2.png",
     "static/media/p7img3.png": "/achraf_mechhour_portfolio/static/media/p7img3.810b5d9b1b2a868f3c45.png",
+    "static/media/p8img5.png": "/achraf_mechhour_portfolio/static/media/p8img5.56727419d2285aa13b89.png",
+    "static/media/p8img3.png": "/achraf_mechhour_portfolio/static/media/p8img3.f73d7f7e9adb87d3fce6.png",
     "static/media/p2img10.png": "/achraf_mechhour_portfolio/static/media/p2img10.fe92d88b83240f5ed8d1.png",
     "static/media/p3img3.png": "/achraf_mechhour_portfolio/static/media/p3img3.8fb2380b021d774503b8.png",
     "static/media/p6img4.png": "/achraf_mechhour_portfolio/static/media/p6img4.e67d83a053248ebe69b9.png",
@@ -92,13 +97,8 @@
     "static/media/p7img15.png": "/achraf_mechhour_portfolio/static/media/p7img15.d9697606182e98c70b4d.png",
     "static/media/microsoft-logo.png": "/achraf_mechhour_portfolio/static/media/microsoft-logo.d7b59593ba268ead76f2.png",
     "static/media/file_structure_Portfolio.png": "/achraf_mechhour_portfolio/static/media/file_structure_Portfolio.012d9ff8f007d25d90d8.png",
-    "static/media/p8img6.webp": "/achraf_mechhour_portfolio/static/media/p8img6.ac4164d6f216fd974c48.webp",
-    "static/media/p8img2.webp": "/achraf_mechhour_portfolio/static/media/p8img2.638645cc579d3efd8a6b.webp",
     "static/media/file_structure_watches.png": "/achraf_mechhour_portfolio/static/media/file_structure_watches.d62800f1552b8c81eaba.png",
     "static/media/file_structure_worldmap.png": "/achraf_mechhour_portfolio/static/media/file_structure_worldmap.dc6ff47fa2fd430f2150.png",
-    "static/media/p8img4.webp": "/achraf_mechhour_portfolio/static/media/p8img4.7322047bcb1a475cd7b0.webp",
-    "static/media/p8img5.webp": "/achraf_mechhour_portfolio/static/media/p8img5.c5b4ed1057be9c93083b.webp",
-    "static/media/p8img3.webp": "/achraf_mechhour_portfolio/static/media/p8img3.d378e594470c88175724.webp",
     "static/media/file_structure_Coffe-Website.png": "/achraf_mechhour_portfolio/static/media/file_structure_Coffe-Website.05b9389e5a293a5a9e1b.png",
     "static/media/file_structure_consulting_app.webp": "/achraf_mechhour_portfolio/static/media/file_structure_consulting_app.3c85fef2706ad9d2bce6.webp",
     "static/media/bg_for_every_page.png": "/achraf_mechhour_portfolio/static/media/bg_for_every_page.6d709df08029de2ecc8c.png",
@@ -108,10 +108,10 @@
     "static/media/slick.woff": "/achraf_mechhour_portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/achraf_mechhour_portfolio/index.html",
     "main.933e36c8.css.map": "/achraf_mechhour_portfolio/static/css/main.933e36c8.css.map",
-    "main.25173960.js.map": "/achraf_mechhour_portfolio/static/js/main.25173960.js.map"
+    "main.41adbd0a.js.map": "/achraf_mechhour_portfolio/static/js/main.41adbd0a.js.map"
   },
   "entrypoints": [
     "static/css/main.933e36c8.css",
-    "static/js/main.25173960.js"
+    "static/js/main.41adbd0a.js"
   ]
 }
