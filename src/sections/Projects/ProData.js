@@ -94,15 +94,21 @@ import p7img13 from '../../assets/project7/p7img13.png';
 import p7img14 from '../../assets/project7/p7img14.png';
 import p7img15 from '../../assets/project7/p7img15.png';
 import p7img16 from '../../assets/project7/p7img16.png';
+import p7img17 from '../../assets/project7/project8/p8img11.png';
+import p7img18 from '../../assets/project7/project8/p8img2.png';
+import p7img19 from '../../assets/project7/project8/p8img3.png';
+import p7img20 from '../../assets/project7/project8/p8img4.png';
+import p7img21 from '../../assets/project7/project8/p8img5.png';
+import p7img22 from '../../assets/project7/project8/p8img6.png';
+
 
 //project 8
-import p8img1 from '../../assets/project8/p8img1.png';
-import p8img2 from '../../assets/project8/p8img2.webp';
-import p8img3 from '../../assets/project8/p8img3.webp';
-import p8img4 from '../../assets/project8/p8img4.webp';
-import p8img5 from '../../assets/project8/p8img5.webp';
-import p8img6 from '../../assets/project8/p8img6.webp';
-
+import p8img1 from '../../assets/project8/p8img11.png';
+import p8img2 from '../../assets/project8/p8img2.png';
+import p8img3 from '../../assets/project8/p8img3.png';
+import p8img4 from '../../assets/project8/p8img4.png';
+import p8img5 from '../../assets/project8/p8img5.png';
+import p8img6 from '../../assets/project8/p8img6.png';
 
 // icons
 import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaBootstrap,FaFigma, FaGear, FaSymfony } from "react-icons/fa6";
@@ -316,6 +322,7 @@ export const ProData = [
             {p6img:p7img14},
             {p6img:p7img15},
             {p6img:p7img16},
+         
         ],
         project_title: 'web application to stock management and electronic commerce. ',
         project_date: "07/6/2024",
@@ -344,15 +351,16 @@ export const ProData = [
     },
     {
         id: 8,
-        image_gallery:[
-            {p8img:p8img1},
-            {p8img:p8img2},
-            {p8img:p8img3},
-            {p8img:p8img4},
-            {p8img:p8img5},
-            {p8img:p8img6},
-        ],
         project_image: img09,
+        image_gallery:[
+            {p6img:p7img17},
+            {p6img:p7img18},
+            {p6img:p7img19},
+            {p6img:p7img20},
+            {p6img:p7img21},
+            {p6img:p7img22},
+            
+        ],
         project_title: 'Consulting Appointment App',
         project_date: "01/06/2024",
         project_desc: [<FaLaravel />  , <SiMysql /> ,<FaCss3Alt />, <FaBootstrap />, <FaGear/> ,<BiLogoJquery />],
@@ -372,5 +380,5 @@ export const ProData = [
         ],
         project_structure_img: structure_08,
         project_link_preview: 'https://drniveen.com/',
-    },
+    }
 ]
