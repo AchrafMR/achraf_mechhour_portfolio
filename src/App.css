@@ -26,6 +26,7 @@ body{
   background-color: #000408;
 }
 
+
 html{
   font-family: 'Poppins', sans-serif;
   font-size: 62.5%;
@@ -44,4 +45,5 @@ html{
     box-sizing: border-box;
     width: 92%;
   }
+  
 }
