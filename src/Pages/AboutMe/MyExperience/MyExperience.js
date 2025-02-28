@@ -35,7 +35,7 @@ const MyExperience = () => {
             <div className="box">
                 <div className="content">
                     <span className='span'><FaCalendar /> 2024 </span>
-                    <h3>INTERNSHIP(at a distance)</h3>
+                    <h3>INTERNSHIP(Remote)</h3>
                     <p>1 month (February 2024) at YT CONSULTING in Belgium: <br />
                     <span className='mx-4'>- Develop a web application to manage invoices for the car dealership. </span></p>
                 </div>
